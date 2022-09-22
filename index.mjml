@@ -1,0 +1,38 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all padding="0" />
+      <mj-class name="txt-uppercase" text-transform="uppercase" font-weight="700" />
+      <mj-class name="center-picture" background-position="center,center" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-container>
+      <mj-section
+        mj-class="center-picture"
+        padding="80px 0 80px 0"
+        background-url="./images/banner.png"
+        background-size="cover"
+        full-width="full-width"
+        text-align="left"
+      >
+        <mj-column width="300"  background-color="salmon" border-radius="25px">
+          <mj-text padding-left="25px" color="white" font-size="30px" mj-class="txt-uppercase"
+            >| Vaccin' & Vous</mj-text
+          >
+        </mj-column>
+      </mj-section>
+      <mj-section full-width="full-width" padding-bottom="25px">
+        <mj-column background-color="salmon" padding="10px 0 10px 0">
+          <mj-text align="center" color="white">Population adolescente : comment les protéger ?</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column background-color="salmon" width="50%" padding="10px 25px 10px 25px">
+          <mj-text color="white" align="center" mj-class="txt-uppercase">J'accede à l'espace vaccin' & vous</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+  <mjml></mjml
+></mjml>
