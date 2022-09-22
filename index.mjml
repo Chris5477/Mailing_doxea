@@ -4,6 +4,7 @@
       <mj-all padding="0" />
       <mj-class name="txt-uppercase" text-transform="uppercase" font-weight="700" />
       <mj-class name="center-picture" background-position="center,center" />
+      <mj-class name="strong-underline" text-decoration="underline" font-weight="700" />
     </mj-attributes>
   </mj-head>
   <mj-body>
@@ -16,7 +17,7 @@
         full-width="full-width"
         text-align="left"
       >
-        <mj-column width="300"  background-color="salmon" border-radius="25px">
+        <mj-column width="300" background-color="salmon" border-radius="25px" padding="15px 0">
           <mj-text padding-left="25px" color="white" font-size="30px" mj-class="txt-uppercase"
             >| Vaccin' & Vous</mj-text
           >
@@ -27,12 +28,97 @@
           <mj-text align="center" color="white">Population adolescente : comment les protéger ?</mj-text>
         </mj-column>
       </mj-section>
-      <mj-section>
+      <mj-section padding-bottom="25px">
         <mj-column background-color="salmon" width="50%" padding="10px 25px 10px 25px">
           <mj-text color="white" align="center" mj-class="txt-uppercase">J'accede à l'espace vaccin' & vous</mj-text>
         </mj-column>
       </mj-section>
+      <mj-section padding-bottom="25px">
+        <mj-column>
+          <mj-text>
+            Ce mois-ci, Vaccin' & Vous est de retour avec un dossier sur la vaccination d'une population qui ne bénéfice
+            pas toujours du suivie qu'elle nécessite : <strong><u>Les adolescents.</u></strong
+            ><br />
+            Pourtant, l'adolescence est encore le temps du rattrapage d'une primovaccination incomplète, des rappels
+            nécessaires mais aussi celui d'une exposition à de nouveaux risques.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-bottom="25px">
+        <mj-column>
+          <mj-text mj-class="strong-underline">
+            Ce dossier revient sur ces sujets et vous propose un tableau de synthèse pour vous accompagner dans votre
+            pratique
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="25px">
+        <mj-column>
+          <mj-text>
+            <strong><u>Sérotypes</u></strong> et <strong><u>vaccins conjugués</u></strong> : que se cache-t'il
+            réellement derrière ces termes communèment utilisés mais faisant appel à des notions parfois complexes ?
+            Comment les définit-on ? Sur quelles techniques reposent-ils ? Quelles en sont les implications dans votre
+            ptratique ?
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-bottom="25px">
+        <mj-column>
+          <mj-text mj-class="strong-underline"
+            >Retrouvez les réponses à vos questions dans les articles de synthèse du mois.</mj-text
+          >
+        </mj-column>
+      </mj-section>
+
+      <mj-section direction="ltr" background-color="#586975" padding="70px 0">
+        <mj-column>
+          <mj-text
+            >Pour retrouver les contenus de l'espace édition 2021<br />
+            rendez-vous dans la rubrique <strong><u>Archives</u></strong></mj-text
+          >
+        </mj-column>
+        <mj-column>
+          <mj-button align="center" background-color="white" color="#586975" mj-class="txt-uppercase"
+            >J'ACCÈDE À L'ESPACE VACCIN' & VOUS</mj-button
+          >
+        </mj-column>
+        <mj-column>
+          <mj-text>Bonne lecture sur <strong>Vaccin' & Vous !</strong></mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="25px">
+        <mj-column>
+          <mj-text align="center"
+            >Avec le soutiens institutionel de
+            <img
+              src="https://logos-marques.com/wp-content/uploads/2021/06/Pfizer_logo.png"
+              alt="pfizer"
+              width="100px"
+              height="60px"
+          /></mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="25px">
+        <mj-column>
+          <mj-divider border-color="salmon" border-width="5"></mj-divider>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-bottom="25px">
+        <mj-column>
+          <mj-text>
+            Vous recevez cet e-mail car vous avez accepté de recevoir des messages d'<a href="https://www.egora.fr/"
+              >egora.fr.</a
+            ><br />
+            Le site <a href="https://www.egora.fr/">egora.fr</a> est édité par la société Global Media Santé.<br />
+            SAS au capital de 4 289 852 € | RCS Nanterre B422 422 063 <br />
+            Tour Voltaire - 1, Place des Dégrès CS 80235 Puteaux | 92059 Paris La Défense Cedex
+          </mj-text>
+        </mj-column>
+      </mj-section>
     </mj-container>
   </mj-body>
-  <mjml></mjml
-></mjml>
+</mjml>
