@@ -1,12 +1,13 @@
 <mjml>
   <mj-head>
+    <mj-breakpoint width="320px" />
     <mj-attributes>
-      <mj-all padding="0" font-size="18px" font-family="sans-serif" />
+      <mj-all padding="0" font-size="18px" color="#586975" font-family="sans-serif" />
       <mj-class name="txt-uppercase" text-transform="uppercase" font-weight="700" />
       <mj-class name="center-picture" background-position="center,center" />
-      <mj-class name="strong-underline" text-decoration="underline" font-weight="700">
-    </mj-attributes> 
-   
+      <mj-class name="strong-underline" text-decoration="underline" font-weight="700" />
+      <mj-class name="radius" border-radius="25px" position:"relative" right:"50px"/>
+    </mj-attributes>
   </mj-head>
   <mj-body width="100%" background-color="white">
     <mj-section
@@ -16,11 +17,9 @@
       background-size="cover"
       text-align="left"
     >
-    <mj-group width="60%">
-      <mj-column width="60%" background-color="#df9586"  border-radius="25px" padding="15px 0">
-        <mj-text padding-left="15px"  color="white" font-size="18px" mj-class="txt-uppercase">| Vaccin' & Vous</mj-text>
+      <mj-column width="230px">
+        <mj-image src="https://i.ibb.co/8mRzLSJ/bandeau.png" align="left" alt="bandeau" />
       </mj-column>
-    </mj-group>
     </mj-section>
     <mj-section full-width="full-width" padding-bottom="25px">
       <mj-column background-color="#df9586" padding="10px">
@@ -30,8 +29,10 @@
       </mj-column>
     </mj-section>
     <mj-section padding-bottom="25px">
-      <mj-column background-color="#df9586" width="50%" padding="10px 20px">
-        <mj-text color="white" align="center" mj-class="txt-uppercase">J'accede à l'espace vaccin' & vous</mj-text>
+      <mj-column background-color="#df9586" width="60%" padding="10px 20px">
+        <mj-text color="white" font-size="14px" font-weight="700" align="center" mj-class="txt-uppercase"
+          ><a style="text-decoration: none; color: white" href="#">J'accede à l'espace vaccin' & vous</a></mj-text
+        >
       </mj-column>
     </mj-section>
     <mj-section padding-bottom="25px">
@@ -71,31 +72,42 @@
       </mj-column>
     </mj-section>
 
-    <mj-section padding-bottom="25px" padding-left="30px" >
-    <mj-group width="95%" >
-      <mj-column width="95%" >
-        <mj-table  container-background-color="#586975" cellspacing="0" cellpadding="0">
-      
+    <mj-section padding-bottom="25px">
+      <mj-column width="90%">
+        <mj-table align="center" container-background-color="#586975" cellspacing="0" cellpadding="0">
           <tr>
-            <td style="font-weight=700; font-size:14px; color:white; padding:20px 0; text-align:center">
-             Pour retrouver les contenus de l'espace édition 2021<br /> rendez-vous dans la rubrique
+            <td style="font-size: 16px; color: white; padding: 20px 0; text-align: center">
+              Pour retrouver les contenus de l'espace édition 2021<br />
+              rendez-vous dans la rubrique
               <strong><u>Archives</u></strong>
             </td>
           </tr>
           <tr>
-            <td style=" text-align:center">
-          <a href="#" style=" font-weight=800 ;background-color:white;font-size:14px; width:80%; font-weight:bold; padding:10px 10px; color:#586975; display:inline-block; text-decoration:none">
-                J'ACCÈDE À L'ESPACE VACCIN' & VOUS
-            </a>
+            <td style="text-align: center">
+              <a href="#">
+                <button
+                  style="
+                    color: white;
+                    padding: 10px 15px;
+                    color: #586975;
+                    font-size: 14px;
+                    font-weight: 700;
+                    cursor: pointer;
+                  "
+                >
+                  J'ACCÈDE À L'ESPACE VACCIN' & VOUS
+                </button>
+              </a>
+              <mj-text></mj-text>
             </td>
           </tr>
           <tr>
-            <td style="font-weight=700 font-size:14px; color:white; padding:20px 0;  text-align:center"><Bonne lecture sur <strong>Vaccin' & Vous !</strong></td>
+            <td style="font-size: 16px; color: white; padding: 20px 0; text-align: center">
+              Bonne lecture sur <strong>Vaccin' & Vous !</strong>
+            </td>
           </tr>
-        
         </mj-table>
       </mj-column>
-    </mj-group>
     </mj-section>
 
     <mj-section>
